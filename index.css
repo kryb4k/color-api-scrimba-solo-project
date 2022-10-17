@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #192841;
+}
+
+.nav-bar {
+    background-color: #192841;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #23395d;
+}
+
+.color-picker {
+    cursor: pointer;
+    height: 3em;
+    padding: 0;
+    width: 4em;
+    -webkit-box-shadow: 0px 0px 20px 10px rgba(47, 49, 53, .3);
+    -moz-box-shadow: 0px 0px 20px 10px rgba(47, 49, 53, .3);
+    box-shadow: 0px 0px 20px 10px rgba(47, 49, 53, .3);
+}
+
+#scheme-choose {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: white;
+    color: #23395d;
+    border: 1px solid #23395d;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 20px 10px rgba(47, 49, 53, .3);
+    -moz-box-shadow: 0px 0px 20px 10px rgba(47, 49, 53, .3);
+    box-shadow: 0px 0px 20px 10px rgba(47, 49, 53, .3);
+}
+
+option {
+    text-align: center;
+}
+
+#get-scheme {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #fff;
+    color: #23395d;
+    border: 1px solid #23395d;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 20px 10px rgba(47, 49, 53, .3);
+    -moz-box-shadow: 0px 0px 20px 10px rgba(47, 49, 53, .3);
+    box-shadow: 0px 0px 20px 10px rgba(47, 49, 53, .3);
+}
+
+#get-scheme:hover,
+#get-scheme:active {
+    background-color: #f4db61;
+    color: #192841;
+}
+
+.container{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #192841;
+
+}
+
+.colors-container {
+    border: .5px solid #23395d;
+    height: 85%;
+}
+
+.color {
+    background-color: #152238;
+    border-right: .5px solid #23395d;
+    width: 20%;
+    height: 100%;
+}
+
+.code-container {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #f4db61;
+}
+
+.color-code {
+    width: 20%;
+    padding: 10px 5px;
+}
+
+.color-code:hover,
+.color-code:focus {
+    cursor: pointer;
+}
