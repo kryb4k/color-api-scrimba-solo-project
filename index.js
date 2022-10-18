@@ -28,8 +28,6 @@ function getColorsScheme(){
             function copyToClipboard(){
                 const hexCode = document.getElementById(`col-${i}-name`)
                 const readyCode = hexCode.textContent.slice(0,7)
-                console.log(readyCode +" "+ typeof readyCode)
-                
                 navigator.clipboard.writeText(`${readyCode}`)
             }
             }
